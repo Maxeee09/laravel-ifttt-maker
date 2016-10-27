@@ -5,3 +5,5 @@ All Notable changes to `maxeee09/laravel-ifttt-maker` will be documented in this
 ## v1.0.0 - 2016-10-27
 
 ### Added
+
++ Emit IFTTT Maker event
