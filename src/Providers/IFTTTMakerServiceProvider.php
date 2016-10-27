@@ -33,7 +33,7 @@ class IFTTTMakerServiceProvider extends ServiceProvider
         });
 
         // Register Manager
-        $this->app->singleton(IFTTTMaker::ACCESSOR_NAME, function ($app) {
+        $this->app->singleton(IFTTTMaker::FACADE_ACCESSOR, function ($app) {
             return $app->make(IFTTTMakerManager::class);
         });
 
@@ -48,6 +48,6 @@ class IFTTTMakerServiceProvider extends ServiceProvider
      */
     public function provides()
     {
-        return [IFTTTMaker::ACCESSOR_NAME];
+        return [IFTTTMaker::FACADE_ACCESSOR];
     }
 }
