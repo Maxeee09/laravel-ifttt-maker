@@ -1,0 +1,38 @@
+{
+  "name": "maxeee09/laravel-ifttt-maker",
+  "description": "Laravel IFTTT Maker event emitter",
+  "keywords": [
+    "maxeee09",
+    "laravel",
+    "ifttt",
+    "maker",
+    "event"
+  ],
+  "authors": [
+    {
+      "name": "Maxence BOURQUIN",
+      "email": "maxence@carvinglabs.com",
+      "homepage": "https://github.com/Maxeee09",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "guzzlehttp/guzzle": "~6.0",
+    "illuminate/support": "5.1.*|5.2.*|5.3.*",
+    "illuminate/contracts": "5.1.*|5.2.*|5.3.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Maxeee09\\IFTTT\\Maker\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Maxeee09\\IFTTT\\Maker\\Tests\\": "tests"
+    }
+  }
+}
